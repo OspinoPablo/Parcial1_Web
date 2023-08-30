@@ -1,0 +1,119 @@
+html{
+    background-color: #EAF7CF;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #eaf7cf;
+  }
+
+.logo{
+    height: 60px;
+    width: 60px;
+}
+
+.btn2{
+    background-color: #d0d49b;
+    border-color: #b2b67d;
+    border-width: 3px;
+}
+
+.nav-link{
+    font-size: x-large;
+    padding-right: 36px !important; 
+}
+
+.contact-section{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.enviar{
+    margin-top: 30px;
+}
+
+/* Cambiar el tamaño de las letras en el botón de búsqueda */
+.btn-secondary {
+    font-size: x-large; /* Ajusta el valor según tus preferencias */
+  }
+
+  /* Cambiar el tamaño de las letras en el cuadro de búsqueda */
+  .form-control {
+    font-size: x-large; /* Ajusta el valor según tus preferencias */
+  }
+
+.navbar {
+    display: flex;
+    margin-bottom: 0px;
+    padding: 10px;
+    font-size: 17px;
+}
+
+.jumbotron {
+    background-image: url(fondo.webp);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+.display-4 {
+    color: rgb(228, 219, 207);
+    font-size: 7rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.lead {
+    color: #d0ddb6;
+    font-size: 2.3rem;
+    font-weight: 500;
+}
+
+  .container {
+    width: 100%;
+    max-width: 1200px; /* Puedes ajustar el valor según tus necesidades */
+    padding: 20px;
+  }
+
+  .card {
+    margin-bottom: 20px;
+    background-color: #EBEFBF;
+  }
+  
+.custom_jumbotron {
+    background-color: #EAF7CF;
+    padding: 00px; /* Ajusta el espacio interno según tus preferencias */
+    margin: 0; /* Elimina el margen superior */
+    border-radius: 0; /* Elimina las esquinas redondeadas si lo deseas */
+  }
+
+.navbar .input-group {
+    margin-right: 10px; /* Ajusta este valor según tu preferencia */
+  }
+
+footer {
+    background-color:#989b75;
+    margin-top: 40px;
+}
+
+footer ul {
+    list-style: none;
+    display: flex; /* Mostrar elementos en línea */
+    justify-content: center; /* Centrar los elementos horizontalmente */
+    padding: 0;
+    margin-bottom: 0px;
+  }
+
+  footer li {
+    margin: 0 10px; /* Agrega un margen entre los elementos */
+    font-size: x-large;
+  }
+
+  footer li p{
+    font-weight: 700;
+  }
